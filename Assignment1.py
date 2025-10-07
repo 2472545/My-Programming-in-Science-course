@@ -66,7 +66,8 @@ count_multiples_of_3(limit) # We call the function
 def sum_of_even_numbers(start, end): # We define the function
     sum = 0 # This is the intial sum (no values)
     for x in range(start, end + 1): # We set the for loop
-        sum += x # This is necessary for this loop to function
+        if x % 2 == 0:
+            sum += x # This is necessary for this loop to function
     print(f"The sum is {sum}!") # We set our output
 start = int(input("What is the starting number? ")) # We ask the user to enter the starting number
 end = int(input("What is the ending number? ")) # We ask the user to enter the ending number
