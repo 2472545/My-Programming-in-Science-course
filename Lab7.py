@@ -15,6 +15,3 @@ def rotate_the_array(array_size, starting_integer): # We define the function
 array_size = int(input("Enter the array size: ")) # User input
 starting_integer = int(input("What is the starting integer: ")) # User input
 print(rotate_the_array(array_size, starting_integer)) # We call the function
-
-
-
