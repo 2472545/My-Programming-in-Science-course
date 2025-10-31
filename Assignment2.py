@@ -9,8 +9,6 @@ def remove_duplicates_and_sort(numbers): # We define the function
 numbers_list = [1, 6, -5, -5, 6, 3, 8, 20, 104, 103, 26, 57, -800, -789, 3, -5, -3, 8, -5, -1000] # This is our list
 print(remove_duplicates_and_sort(numbers_list)) # We call the function
 
-#____________________________________________________________________________________________________________________
-
 # Function : Single-Dimensional Arrays - Cumulative Sum
 # This function takes an array (list) of numbers and returns a new list where each element is the cumulative sum of the previous elements.
 
@@ -25,9 +23,6 @@ def cumulative_sum(arr): # We define the function
 arr = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21] # This is our array
 print(cumulative_sum(arr)) # We call the function
 
-#____________________________________________________________________________________________________________________
-
-
 # Function : Slicing - Extracting Every Nth Element
 # This function takes a list and a step value N and returns every Nth element.
 def slice_every_nth(my_list, step): # We define the function
@@ -36,8 +31,6 @@ def slice_every_nth(my_list, step): # We define the function
 step = 3 # This is our step
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 ,27, 28, 29, 30] # This is our list
 print(slice_every_nth(my_list, step)) # We call the function
-
-#____________________________________________________________________________________________________________________
 
 # Function : Arithmetic Operations with Arrays - Dot Product
 # This function takes two lists of the same length and returns their dot product.
@@ -50,8 +43,6 @@ def dot_product(list1, list2): # We define the function
 list1 = [1, 2, 3, 4, 5] # This is our list 1
 list2 = [6, 7, 8, 9, 10] # This is our list 2
 print(dot_product(list1, list2)) # We call the function
-
-# ___________________________________________________________________________________________________________________
 
 # Function : Arithmetic Operations with Arrays - Matrix Multiplication
 # This function takes two 2D lists (matrices) and returns their matrix product.
@@ -72,4 +63,3 @@ matrix2 = [ [7, 1] ,     # We create matrix 2
             [2, 8] ]
 
 print(matrix_multiplication(matrix1, matrix2)) # We call the function
-
