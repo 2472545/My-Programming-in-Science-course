@@ -61,7 +61,7 @@ def matrix_multiplication(matrix1, matrix2): # We define the function
                [0, 0] ]
     for i in range(len(matrix1)): # For i associated with matrix 1 
         for j in range(len(matrix2[0])): # For j associated with matrix 2 
-            for k in range(len(matrix1)): # For k iassociated with matrix 1
+            for k in range(len(matrix1)): # For k associated with matrix 1
                 result[i][j] += matrix1[i][k] * matrix2[k][j] # We set our result
     return result # We return the result
 
@@ -72,3 +72,4 @@ matrix2 = [ [7, 1] ,     # We create matrix 2
             [2, 8] ]
 
 print(matrix_multiplication(matrix1, matrix2)) # We call the function
+
